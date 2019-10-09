@@ -1,6 +1,6 @@
 ---
 title: "Developing a scientific rationale"
-author: "Thomas Pollet (@tvpollet), Northumbria University"
+author: "Dr. Thomas V. Pollet (@tvpollet), Northumbria University"
 date: "`r format(Sys.Date())` | [disclaimer](http://tvpollet.github.io/disclaimer)"
 output:
   xaringan::moon_reader:
