@@ -1,4 +1,5 @@
-# developing_a_scientific_rationale
-Lecture on developing a scientific rationale
+# Talk_Jealousy
 
-This is a lecture I gave for 3rd year students on how they can develop the scientific rationale for their thesis project
+This is a talk summarising our findings on Jealousy from our PSPB paper.
+
+This is a lecture I gave at EHBEA 2021.
