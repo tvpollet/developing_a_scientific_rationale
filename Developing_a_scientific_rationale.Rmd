@@ -1,6 +1,6 @@
 ---
 title: "Developing a scientific rationale"
-author: "Dr. Thomas V. Pollet (@tvpollet), Northumbria University"
+author: "Prof. Thomas V. Pollet (@tvpollet), Northumbria University"
 date: "`r format(Sys.Date())` | [disclaimer](http://tvpollet.github.io/disclaimer)"
 output:
   xaringan::moon_reader:
@@ -41,7 +41,7 @@ myBib <- ReadBib("./myBib.bib", check = FALSE)
 
 * Summary.
 
-We'll use '[zeetings](www.zeetings.com/tvpollet)' to make it a bit more interactive. Go to [www.zeetings.com/tvpollet](www.zeetings.com/tvpollet) for the interactive bit.
+We'll use 'Blackboard collaborate polling' to make it a bit more interactive. Keep an eye out for questions popping up.
 
 --> Goal for today: give you some strategies for developing a rationale.
 
@@ -55,7 +55,7 @@ No need to extensive notes. References at end of slides.
 ---
 ## Who am I... ?
 
-* I teach the option course Research on Human Nature and [Advanced Quantitative methods](https://tvpollet.github.io/PY0794). Also, I am the 'Director of Learning & Teaching: Experience'.
+* I teach [Advanced Quantitative methods](https://tvpollet.github.io/PY0794). Also, I used to be the 'Director of Learning & Teaching: Experience' and taught the option course on human nature. I am our university's open science lead.
 
 --
 
@@ -74,7 +74,7 @@ knitr::include_graphics("https://media.giphy.com/media/xTiTnmyOHAeSeqkbcI/giphy.
 
 So which of the following best describes your proposed interest (pick a word! e.g., addiction, cognition, personality).
 
-**Zeetings Question**
+**Post in BB Collaborate chat**
 
 ```{r, out.width = "600px", echo=FALSE, fig.align='center'}
 knitr::include_graphics("https://media.giphy.com/media/3o72EVymX8u70s22mQ/giphy.gif")
@@ -102,7 +102,7 @@ knitr::include_graphics("https://media.giphy.com/media/bQvbdd3YgDbOM/giphy.gif")
 
 * Have you met your supervisor? 
 
-**Zeetings question**
+**Thomas Posts poll question**
 
 --
 
@@ -131,7 +131,7 @@ knitr::include_graphics("https://media.giphy.com/media/ytkAEO6oNLVNC/giphy.gif")
 
 --
 
-* Important to take account of the research that has already been conducted in the area. Do a thorough literature search!
+* Important to take into account the research that has already been conducted in the area. Do a thorough literature search!
 
 --
 
@@ -225,7 +225,7 @@ knitr::include_graphics("Lin_article.png")
 ---
 ## Replication.
 
-Study 1 carried out by 2 MSc. students in the Netherlands (N= 273). 
+Study 1 carried out by 2 MSc. students in the Netherlands (N = 273). 
 
 --
 
@@ -285,7 +285,7 @@ knitr::include_graphics("https://media.giphy.com/media/TvVck7lO4LDJS/giphy.gif")
 knitr::include_graphics("Hamstra_article.png")
 ```
 
-**Zeetings question**
+**Post in chat**
 
 ???
 Mention 'prevention vs. promotion focus.'
@@ -311,7 +311,7 @@ We had previously done studies in the Netherlands: we found men are more likely 
 
 --
 
-For example, we observed using lights on one's bike and gender (N=555 cyclists).
+For example, we observed using lights on one's bike and gender (N = 555 cyclists).
 
 --
 

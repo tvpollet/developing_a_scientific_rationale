@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="" xml:lang="">
   <head>
     <title>Developing a scientific rationale</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Dr. Thomas V. Pollet (@tvpollet), Northumbria University" />
+    <meta name="author" content="Prof. Thomas V. Pollet (@tvpollet), Northumbria University" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
   </head>
@@ -12,8 +13,8 @@
 class: center, middle, inverse, title-slide
 
 # Developing a scientific rationale
-### Dr. Thomas V. Pollet (<span class="citation">@tvpollet</span>), Northumbria University
-### 2019-10-09 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
+### Prof. Thomas V. Pollet (<span class="citation">@tvpollet</span>), Northumbria University
+### 2021-10-01 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
 
 ---
 
@@ -34,7 +35,7 @@ class: center, middle, inverse, title-slide
 
 * Summary.
 
-We'll use '[zeetings](www.zeetings.com/tvpollet)' to make it a bit more interactive. Go to [www.zeetings.com/tvpollet](www.zeetings.com/tvpollet) for the interactive bit.
+We'll use 'Blackboard collaborate polling' to make it a bit more interactive. Keep an eye out for questions popping up.
 
 --&gt; Goal for today: give you some strategies for developing a rationale.
 
@@ -46,7 +47,7 @@ No need to extensive notes. References at end of slides.
 ---
 ## Who am I... ?
 
-* I teach the option course Research on Human Nature and [Advanced Quantitative methods](https://tvpollet.github.io/PY0794). Also, I am the 'Director of Learning &amp; Teaching: Experience'.
+* I teach [Advanced Quantitative methods](https://tvpollet.github.io/PY0794). Also, I used to be the 'Director of Learning &amp; Teaching: Experience' and taught the option course on human nature. I am our university's open science lead.
 
 --
 
@@ -63,7 +64,7 @@ No need to extensive notes. References at end of slides.
 
 So which of the following best describes your proposed interest (pick a word! e.g., addiction, cognition, personality).
 
-**Zeetings Question**
+**Post in BB Collaborate chat**
 
 &lt;img src="https://media.giphy.com/media/3o72EVymX8u70s22mQ/giphy.gif" width="600px" style="display: block; margin: auto;" /&gt;
 
@@ -87,7 +88,7 @@ So which of the following best describes your proposed interest (pick a word! e.
 
 * Have you met your supervisor? 
 
-**Zeetings question**
+**Thomas Posts poll question**
 
 --
 
@@ -114,7 +115,7 @@ To discuss:
 
 --
 
-* Important to take account of the research that has already been conducted in the area. Do a thorough literature search!
+* Important to take into account the research that has already been conducted in the area. Do a thorough literature search!
 
 --
 
@@ -198,7 +199,7 @@ You have looked and nothing 'relevant' is there.
 ---
 ## Replication.
 
-Study 1 carried out by 2 MSc. students in the Netherlands (N= 273). 
+Study 1 carried out by 2 MSc. students in the Netherlands (N = 273). 
 
 --
 
@@ -250,7 +251,7 @@ To the best degree possible, we followed the original study,... .
 
 &lt;img src="Hamstra_article.png" width="450px" style="display: block; margin: auto;" /&gt;
 
-**Zeetings question**
+**Post in chat**
 
 ???
 Mention 'prevention vs. promotion focus.'
@@ -274,7 +275,7 @@ We had previously done studies in the Netherlands: we found men are more likely 
 
 --
 
-For example, we observed using lights on one's bike and gender (N=555 cyclists).
+For example, we observed using lights on one's bike and gender (N = 555 cyclists).
 
 --
 
@@ -640,9 +641,25 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     deleted = true;
   });
-})();</script>
-
-<script>
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
 (function() {
   var links = document.getElementsByTagName('a');
   for (var i = 0; i < links.length; i++) {
@@ -651,7 +668,23 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
   }
 })();
-</script>
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
 <script>
 slideshow._releaseMath = function(el) {
