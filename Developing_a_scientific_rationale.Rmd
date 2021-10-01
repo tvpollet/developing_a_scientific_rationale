@@ -55,11 +55,8 @@ No need to extensive notes. References at end of slides.
 ---
 ## Who am I... ?
 
-<<<<<<< HEAD
+
 * I teach [Advanced Quantitative methods](https://tvpollet.github.io/PY0794). Also, I used to be the 'Director of Learning & Teaching: Experience' and taught the option course on human nature. I am our university's open science lead.
-=======
-* I teach [Advanced Quantitative methods](https://tvpollet.github.io/PY0794). Also, I was the 'Director of Learning & Teaching: Experience' and taught the option course Research on Human Nature (PY0552).
->>>>>>> dde5f2ade037955c702be974d628c0e6fcb4e57b
 
 --
 
